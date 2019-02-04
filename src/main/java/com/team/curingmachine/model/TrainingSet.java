@@ -14,7 +14,7 @@ public class TrainingSet {
     private ObjectId _id;
 	
 	@Field(value = "team")
-	private String  team;
+	private String  teams;
 
 	@Field(value = "text")
 	private String  text;
@@ -29,7 +29,6 @@ public class TrainingSet {
 	private String  intent;	
 	
 
-
 	public ObjectId get_id() {
 		return _id;
 	}
@@ -39,11 +38,11 @@ public class TrainingSet {
 	}
 
 	public String getTeam() {
-		return team;
+		return teams;
 	}
 
-	public void setTeam(String team) {
-		this.team = team;
+	public void setTeam(String teams) {
+		this.teams = teams;
 	}
 
 	public String getText() {
